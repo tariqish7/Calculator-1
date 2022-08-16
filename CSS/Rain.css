@@ -13,12 +13,12 @@ body {
 i {
   position: absolute;
   height: 200px;
-  background: linear-gradient(transparent, #fff);
+  /* background: linear-gradient(transparent, #fff); */
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  animation: animate 5s linear infinite;
+  /* animation: animate 5s linear infinite; */
 }
-i:nth-child(3n + 1) {
+/* i:nth-child(3n + 1) {
   background: linear-gradient(transparent, #0ff);
 }
 i:nth-child(3n + 2) {
@@ -26,7 +26,7 @@ i:nth-child(3n + 2) {
 }
 i:nth-child(3n + 3) {
   background: linear-gradient(transparent, #f00);
-}
+} */
 
 @keyframes animate {
   0% {
